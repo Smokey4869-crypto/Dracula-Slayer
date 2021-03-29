@@ -53,7 +53,7 @@ def move_down hero
 
 end
 
-def draw_hero hero
+def draw_hero hero 
   if !hero.die
     hero.image.draw_rot(hero.x, hero.y, ZOrder::PLAYER, hero.angle, 0.5, 0.5, 0.5, 0.5)
   else
