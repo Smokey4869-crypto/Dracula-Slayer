@@ -31,7 +31,7 @@ module ZOrder
 end
 
 
-class DraculaSlayerGame < Gosu::Window
+class DraculaSlayerGame < Gosu::Window 
   def initialize
     super SCREEN_WIDTH, SCREEN_HEIGHT
     self.caption = "Dracula Slayer"
