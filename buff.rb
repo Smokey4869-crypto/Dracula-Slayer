@@ -29,7 +29,7 @@ def spawn_buff
   when 1
     buff = Buff.new(:heal)
   when 2
-    buff = Buff.new(:shield)
+    buff = Buff.new(:shield) 
   end
   buff.sound.play
   return buff
