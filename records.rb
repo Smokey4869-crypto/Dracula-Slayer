@@ -1,3 +1,4 @@
+#scores are recorded in my personal database at Swinburne University
 def settings
   client = Mysql2::Client.new(
   username: "s103137309",
