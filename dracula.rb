@@ -32,7 +32,7 @@ def move(dracula, hero)
   distance = Math.sqrt(dir_x*dir_x + dir_y*dir_y)
   dir_x /= distance
   dir_y /= distance
-  dracula.x += dracula.vel_x*dir_x
+  dracula.x += dracula.vel_x*dir_x 
   dracula.y += dracula.vel_y*dir_y
 end
 
